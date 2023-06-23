@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blockHome {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.images,
+.blocky{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.images{
+  background-image: url(../images/imageshome.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.blocky{
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0) , #000);
+}
+
+.boxHead{
+  width: 100%;
+  position: absolute;
+  height: 15vh;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.boxImageLogo{
+  height: 15vh;
+}
+
+.text{
+  margin-right: 50px;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+  display: inline-block;
+  position: relative;
+}
+
+.text::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 10px;
+  transform-origin: bottom left;
+  transition: transform 0.5s ease-out;
+  margin-top: 5px;
+}
+
+.text:hover {
+  letter-spacing: 1px;
+}
+.text:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.text::marker {
+  content: "";
+}
+
+.center{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.centerText{
+  font-size: 50px;
+  color: #fff;
+  font-family: 'Rubik Glitch', cursive;
+}
+

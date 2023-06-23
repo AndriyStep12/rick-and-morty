@@ -1,0 +1,223 @@
+grid {
+    overflow: hidden;
+}
+
+.divBlockCh {
+    width: 350px;
+    height: 400px;
+    /* background-color: #fff; */
+    border-radius: 10px;
+    margin: 30px 30px;
+    overflow: hidden;
+}
+
+
+.blockImage,
+.blockText {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.blockImage {
+    filter: brightness(70%) contrast(130%);
+    background-size: cover;
+    background-position: center;
+    transition: 0.4s;
+}
+
+.blockImage:hover {
+    filter: brightness(50%) contrast(150%);
+    position: relative;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.characters_page {
+    margin-top: 100px;
+}
+
+path,
+.MuiPaginationItem-root {
+    color: #fff !important;
+}
+
+.css-10w330c-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    background-color: #d16fd3 !important;
+}
+
+.MuiBox-root {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.blockText {
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    transition: 0.4s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.blockText:hover {
+    opacity: 1;
+    backdrop-filter: brightness(50%) contrast(130%);
+    transition: 0.4s;
+}
+
+.hoverElement {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.h4 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.secondary {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.divs {
+    width: 78%;
+    margin: 50px 0;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000;
+    box-shadow: 0 0 1px #d16fd3, 0 0 2px #d16fd3, 0 0 4px #d16fd3, 0 0 8px #d16fd3, 0 0 15px #d16fd3;
+    border-radius: 25px;
+}
+
+.css-1orw215-MuiFormControl-root {
+    /* margin: 0 40px!important; */
+    font-family: 'Rubik Glitch' !important;
+    color: #fff !important;
+}
+
+.elent_100 {
+    width: 100%;
+    height: 100vh;
+    background-color: #ff1919;
+    z-index: 1000;
+}
+
+.staticBtn {
+    width: 150px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik Glitch';
+    font-weight: 100;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    color: #fff !important;
+}
+
+.css-1orw215-MuiFormControl-root {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.p_main {
+    font-family: 'Rubik Glitch';
+    text-align: center;
+    font-size: 50px;
+    color: #d16fd3;
+}
+
+.css-mhc70k-MuiGrid-root{
+    justify-content: center;
+    display: flex;
+}
+
+.popup-hero{
+    width: 100%;
+    height: 65vh;
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    width: 100%;
+    height: 100%;
+}
+
+.css-qfso29-MuiTypography-root-MuiDialogContentText-root{
+    width: 100%;
+    height: 100%;
+}
+
+.left_popup{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.right_popup{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-popup{
+    width: 250px;
+    border-radius: 50%;
+}
+
+#alert-dialog-slide-description{
+    display: flex;
+    flex-direction: row;
+}
+
+.right_popup .h4,
+.right_popup .secondary{
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}

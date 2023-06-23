@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.episodeBlock{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.blockPag{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockInfoEp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blockEpisode{
+    width: 80%;
+    height: 200px;
+    /* margin: ; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: #fff; */
+    background-color: #000;
+    color: #fff;
+    color: #333;
+    margin: 30px 0;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 30px;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 20px #ffffff;
+    flex-direction: column;
+    border-radius: 10px;
+    outline: none;
+}
+
+.blockEpisode p {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+h6{
+    font-size: 40px;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #cb58d1;
+    margin-bottom: 20px;
+}
+
+.secondary{
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.look{
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+    padding: 0 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tableEpisode{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableEpisode tbody{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+table{
+    margin-bottom: 30px;
+}
+
+.tableEpisode tr{
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    align-items: center;
+}
+
+.tableEpisode .main_tr{
+    height: 40px;
+    font-size: 30px;
+}
+
+.tableEpisode .main_tr th:hover{
+    letter-spacing: 5px;
+}
+
+.tableEpisode .main_tr th{
+    text-align: center;
+}
+
+.tableEpisode th{
+    text-align: left;
+    transition: 0.4s;
+    font-family: 'Montserrat', sans-serif; 
+}
