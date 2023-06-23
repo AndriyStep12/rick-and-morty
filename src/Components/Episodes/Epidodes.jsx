@@ -98,6 +98,7 @@ function Epidodes({refFocusEpisodes}) {
           count={countPages}
           page={page}
           shape="rounded"
+          color="secondary"
           onChange={paginationChange}
         />
       </div>

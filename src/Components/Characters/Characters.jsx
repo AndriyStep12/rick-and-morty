@@ -122,6 +122,7 @@ export default function Characters({refFocusCharacters}) {
                     count={page}
                     page={thisPage}
                     onChange={paginationChange}
+                    color="secondary"
                     style={{ marginTop: '20px' }}
                     shape="rounded"
                 />

@@ -134,7 +134,7 @@ export default function Location({refFocusLocations}) {
         </table>
       </div>
       <div className="boxLocationPag" id="boxLocationPag">
-        <Pagination count={countPage} page={page} shape="rounded" onChange={paginationChange} />
+        <Pagination count={countPage} page={page} shape="rounded" color="secondary" onChange={paginationChange} />
       </div>
     </div>
   );
