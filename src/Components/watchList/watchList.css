@@ -80,3 +80,12 @@
 #not_watched{
     background: linear-gradient(135deg, #111111 0%, #2A2A2A 100%);
 }
+
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon.css-bvz20t{
+    background-color: #333;
+    color: #fff;
+}
+
+#inputWatchList-label{
+    color: #fff;
+}

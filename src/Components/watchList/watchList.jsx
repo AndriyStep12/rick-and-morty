@@ -79,7 +79,9 @@ export default function WatchList({refFocusWatchList}) {
                 <button className="button_add" onClick={handleAddEpisode}>Add episode</button>
             </div>
             <div className="list_blocks">
-                {savedEpisodes.map(item => <Block savedEpisodes={savedEpisodes} array={savedEpisodes} setArray={setSavedEpisodes} setSavedEpisodes={setSavedEpisodes} key={item} name={item.name} id={item.id} watched={item.watched} />)}
+                {
+                    savedEpisodes.length > 0 ? (savedEpisodes.map(item => <Block savedEpisodes={savedEpisodes} array={savedEpisodes} setArray={setSavedEpisodes} setSavedEpisodes={setSavedEpisodes} key={item} name={item.name} id={item.id} watched={item.watched} />)): <div>You don't have any episodes to watch later</div>
+                }
             </div>
         </div>
     );
