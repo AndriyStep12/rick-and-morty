@@ -221,3 +221,7 @@ path,
     align-items: flex-start;
     flex-direction: column;
 }
+
+.css-isbt42{
+    justify-content: center!important;
+}
