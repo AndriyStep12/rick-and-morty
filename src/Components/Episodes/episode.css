@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
-.episodeBlock{
+.episodeBlock {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -9,14 +9,14 @@
     margin-top: 100px;
 }
 
-.blockPag{
+.blockPag {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.blockInfoEp{
+.blockInfoEp {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -24,7 +24,7 @@
     flex-direction: column;
 }
 
-.blockEpisode{
+.blockEpisode {
     width: 80%;
     height: 200px;
     /* margin: ; */
@@ -47,15 +47,15 @@
 
 .blockEpisode p {
     color: #fff;
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Montserrat', sans-serif;
 }
 
-h6{
+h6 {
     font-size: 40px;
     font-weight: 700;
     width: 100%;
     display: flex;
-    font-family: 'Montserrat', sans-serif;    
+    font-family: 'Montserrat', sans-serif;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -63,11 +63,11 @@ h6{
     margin-bottom: 20px;
 }
 
-.secondary{
-    font-family: 'Montserrat', sans-serif;    
+.secondary {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.look{
+.look {
     width: 300px;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -81,23 +81,23 @@ h6{
     font-family: 'Montserrat', sans-serif;
 }
 
-.tableEpisode{
+.tableEpisode {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.tableEpisode tbody{
+.tableEpisode tbody {
     width: 100%;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
-table{
+table {
     margin-bottom: 30px;
 }
 
-.tableEpisode tr{
+.tableEpisode tr {
     width: 100%;
     padding: 0 40px;
     display: flex;
@@ -106,21 +106,22 @@ table{
     align-items: center;
 }
 
-.tableEpisode .main_tr{
+.tableEpisode .main_tr {
     height: 40px;
     font-size: 30px;
 }
 
-.tableEpisode .main_tr th:hover{
+.tableEpisode .main_tr th:hover {
     letter-spacing: 5px;
 }
 
-.tableEpisode .main_tr th{
+.tableEpisode .main_tr th {
     text-align: center;
+    cursor: pointer;
 }
 
-.tableEpisode th{
+.tableEpisode th {
     text-align: left;
     transition: 0.4s;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }

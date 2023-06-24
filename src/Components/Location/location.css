@@ -1,4 +1,4 @@
-.boxLocation{
+.boxLocation {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -7,13 +7,13 @@
     margin-top: 100px;
 }
 
-.blockPag{
+.blockPag {
     display: flex;
     flex-direction: column;
 
 }
 
-.filterBlock{
+.filterBlock {
     width: 80%;
     height: 100px;
     border-radius: 25px;
@@ -24,24 +24,24 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
-input{
-    font-family: 'Montserrat', sans-serif; 
+input {
+    font-family: 'Montserrat', sans-serif;
 }
 
-.filterBlock .MuiAutocomplete-inputRoot{
+.filterBlock .MuiAutocomplete-inputRoot {
     width: 300px;
-} 
+}
 
-.css-gcwvw8-MuiAutocomplete-root{
+.css-gcwvw8-MuiAutocomplete-root {
     background-color: #333;
     border-radius: 5px;
     /* color: #fff!important; */
 }
 
-.blocking{
+.blocking {
     width: 80%;
     height: 200px;
     background-color: #000;
@@ -57,11 +57,11 @@ input{
     flex-direction: column;
 }
 
-.filterBlock #demo-simple-select{
+.filterBlock #demo-simple-select {
     width: 100px;
 }
 
-.boxLocationInfo{
+.boxLocationInfo {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -71,16 +71,16 @@ input{
 
 }
 
-#combo-box-demo-label{
+#combo-box-demo-label {
     color: #fff;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
-.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root{
-    color: #fff!important;
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+    color: #fff !important;
 }
 
-.tableLocation{
+.tableLocation {
     width: 100%;
     height: auto;
     display: flex;
@@ -89,7 +89,7 @@ input{
     flex-direction: column;
 }
 
-.tableLocation tbody{
+.tableLocation tbody {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ input{
     align-items: center;
 }
 
-.tableLocation tbody tr{
+.tableLocation tbody tr {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -106,28 +106,29 @@ input{
     height: 30px;
 }
 
-.tableLocation tbody tr th{
+.tableLocation tbody tr th {
     text-align: left;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
-.tableLocation .firstTh{
+.tableLocation .firstTh {
     width: 35%;
 }
 
-.tableLocation .secondTh{
+.tableLocation .secondTh {
     width: 20%;
 }
 
-.tableLocation .thirdTh{
+.tableLocation .thirdTh {
     width: 35%;
 }
 
-.tableLocation .main_tr th{
+.tableLocation .main_tr th {
     text-align: center;
+    cursor: pointer;
 }
 
-.tableLocation .main_tr{
+.tableLocation .main_tr {
     background-color: #222;
     height: 40px;
     font-size: 30px;

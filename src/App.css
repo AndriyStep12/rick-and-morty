@@ -13,6 +13,11 @@
   margin-right: 10px;
 }
 
+::-moz-selection { /* Code for Firefox */
+  color: rgb(0, 0, 0);
+  background: #fd8fff;
+}
+
 .App {
   width: 100%;
   min-height: 100vh;
