@@ -1,4 +1,5 @@
 import './App.css';
+import './adaptive.css'
 import React, { useState, useRef } from 'react';
 import Home from './Components/Home/Home';
 import Characters from './Components/Characters/Characters';
